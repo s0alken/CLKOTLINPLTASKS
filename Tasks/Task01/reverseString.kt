@@ -1,10 +1,10 @@
-fun stringReversed(string: String): String {
-    return string.reversed()
+fun reverseString(input: String): String {
+    return input.reversed()
 }
 
 fun main() {
-    val normalString = "I'm not in danger skyler, I'm the danger"
-    val reversedString = stringReversed(normalString)
-    println("Normal: $normalString")
-    println("Reversed: $reversedString")
+    val inputString = "Hello, World!"
+    val reversedString = reverseString(inputString)
+    println("Input: $inputString")
+    println("Output: $reversedString")
 }
