@@ -1,5 +1,3 @@
-//Reverse String
-
 fun stringReversed(string: String): String {
     return string.reversed()
 }

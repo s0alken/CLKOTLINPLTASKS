@@ -1,8 +1,3 @@
-//FIZZ BUZZ Problem
-//If i is divisible by 3 = Fizz
-//If i is divisible by 5 = Buzz
-//If i is divisible by 3 and 5 = FizzBuzz
-
 fun main() {
     for (i in 1..80) {
         when {
