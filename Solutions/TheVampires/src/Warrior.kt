@@ -1,6 +1,7 @@
 open class Warrior(health: Int = 50) {
 
     private val initialHealth = health
+
     var health: Int = health
         private set(value) {
             field = value.coerceAtMost(initialHealth)
@@ -20,7 +21,7 @@ open class Warrior(health: Int = 50) {
         health -= damage
     }
 
-    protected fun healBy(healthPoits: Int) {
-        health += healthPoits
+    protected fun healBy(healthPoints: Int) {
+        health += healthPoints
     }
 }
